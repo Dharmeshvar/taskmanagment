@@ -1,0 +1,147 @@
+.kpicontainer{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.kpicontainer{
+  
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap:10px ;
+    text-align: center;
+   }
+   .child{
+       padding: 15px;
+       border-radius: 5px;
+       background: linear-gradient(90deg, rgba(188,91,6,1) 0%, rgba(214,253,29,1) 50%, rgba(252,176,69,1) 100%);
+   }
+  .child-font{
+   font-size: 15px;
+   font-weight: bold;
+   font-family: sans-serif;
+   color: #fff;
+   background: linear-gradient(0deg, rgba(41,116,219,1) 10%, rgba(28,20,122,1) 46%);
+
+  }
+  .child-select{
+   font-size: 15px;
+   font-weight: bold;
+   font-family: sans-serif;
+   color: #000;
+   padding: 11px;
+   padding-left: 5px;
+   padding-right: 40px;
+   border-radius: 20px;
+   text-align: center;
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+  .child input[type="text"]
+  {
+   border-radius: 20px;
+   padding: 10px;
+   padding-right: 0px;
+   padding-left: 0px;
+   text-align: center;
+   border: 2px solid black;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: sans-serif;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .child input[type="date"]
+  {
+   border-radius: 20px;
+   padding: 10px;
+   border: 2px solid black;
+   font-size: 15px;
+   font-family: sans-serif;
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .child input[type="time"]
+  {
+   border-radius: 20px;
+   padding: 8px;
+   padding-right: 30px;
+   padding-left: 30px;
+   border: 2px solid black;
+   font-size: 15px;
+   font-family: sans-serif;
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .child input[value="+ADD"]{
+   font-size: 15px;
+   font-weight: bold;
+   font-family: sans-serif;
+   color: #fff;
+   padding: 10px;
+   padding-left: 5px;
+   padding-right: 20px;
+   border-radius: 20px;
+   text-align: center;
+   background-color: black;
+   padding-left: 20px;
+   padding-right:20px ;
+   cursor: pointer;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .body-container
+  {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+  }
+  .body-container table{
+   width: 100%;
+   background: linear-gradient(90deg, rgba(188,91,6,1) 0%, rgba(214,253,29,1) 50%, rgba(252,176,69,1) 100%);
+   border-radius: 5px;
+  }
+
+  .body-container table thead tr td{
+   border-radius: 5px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   background: linear-gradient(0deg, rgba(41,116,219,1) 10%, rgba(28,20,122,1) 46%);
+   
+  }
+  .body-container table tbody tr td{
+   border-radius: 10px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   padding: 10px;
+   text-align: center;
+  }
+  #btn1{
+   border-radius: 15px;
+   margin-left: 600px;
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 25px;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #fff;
+   background-color: black;
+   
+  }

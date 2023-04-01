@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+</body>
+    <!--kpi interface-->
+        <div class="kpicontainer">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+        </div>
+    <!--header part-->
+
+    <header>
+        <div class="container">
+            <!--header top section start-->
+
+            <div class="child child-font">Task</div>
+            <div class="child child-font">Date</div>
+            <div class="child child-font">Select</div>
+             <div class="child child-font">ADD</div><br>
+
+              <!--header top section end-->
+
+              <!--header bottom section start-->
+
+            <div class="child"><input type="text" placeholder="Enter your task" id="task1"> </div>
+            <div class="child"><input type="datetime-local" id="date1"></div>
+            <div class="child">
+                <select class="child-select" align="center" id="select1">
+                    <option>select1</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="child "><input type="Button" value="+ADD" id="btn"></div>
+        </div>
+    </header>
+
+            <!--header bottom section end-->
+
+            <!--body start-->
+
+            <div class="body-container">
+                <h1 style="text-align: center; font-style: 18px; font-weight: bold; font-family: sans-serif;">Display All Task</h1>
+                <table  cellspacing="10">
+                    <thead>
+                        <tr>
+                            <td>Task</td>
+                            <td>Date</td>
+                            <td>Type</td>
+                            <td>Delete</td>
+                            <td>Edit</td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="map1">
+                        
+                    </tbody>
+                </table>
+            </div>
+           
+            <button onclick="cleardata()" id="btn1">clear data</button>
+
+            <div style="display: none;">
+                <audio id="alarm" controls src="./alarm.mp3"></audio>
+            </div>
+
+             <input type="text" placeholder="search" id="searchdata">
+             <button onclick="search()">search</button>
+        <script src="update.js"></script>
+        <script src="index.js"></script>
+        
+      
+</body>
+</html>
